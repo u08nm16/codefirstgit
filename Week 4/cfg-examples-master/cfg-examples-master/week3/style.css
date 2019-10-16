@@ -1,0 +1,188 @@
+/**
+ * CSS Reset
+ *
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Main CSS
+ */
+
+body {
+  font-family: Roboto;
+  padding: 10px;
+}
+
+main {
+  width: 900px;
+  background: lightgrey;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0; */
+  /* This line does the same thing as the four margin lines above. */
+  margin: 0 auto;
+  /*
+    Using float can cause weird problems. Adding this to the parent element canvas
+    fix some of those problems.
+  */
+  overflow: hidden;
+}
+
+header {
+  width: 854px;
+  border: 3px solid black;
+  padding: 20px;
+  overflow: hidden;
+  font-family: 'Rubik Mono One';
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+footer {
+  width: 854px;
+  border: 3px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+header a h1 {
+  color: #ffffff;
+  padding: 0 30px;
+  font-size: 50px;
+}
+
+/*
+  :hover means to only apply the following rules when the user's cursor goes
+  over the corresponding element (aka when you hover over the element).This is
+  called a pseudo class. Google pseudo-classes. Examples of pseudo classes are:
+  :hover
+  :disabled
+  :empty
+  :focus
+  :active
+  :visited
+  :valid
+*/
+header a:hover h1 {
+  color: orange;
+}
+
+/*
+  The ">" operator here means direct ascendancy.
+  We only apply the following properties to any A that is a direct child of the
+  header element. For example it will work on the following:
+  <header> <a> = will work
+  <header> <nav> <a> = won't work
+*/
+header > a {
+  float: left;
+  text-decoration: none;
+}
+
+header nav {
+  float: right;
+  width: 70%;
+  margin-top: 15px;
+  text-align: right;
+}
+
+html body a {
+  color: purple;
+}
+
+nav a {
+  background: orange;
+  color: white !important;
+  text-decoration: none;
+  padding: 7px;
+}
+
+aside#sidebar {
+  width: 174px;
+  float: left;
+  border: 3px solid black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+aside#sidebar h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 30px 0 10px;
+}
+
+/*
+  ::first-child means to only apply the following rules to the first child
+  matching the selector. In this case the first h2 element. This is called a
+  pseudo element. Google pseudo-elements. Other pseudo elements are for example:
+  ::first-line
+  ::first-letter
+  ::before
+  ::after
+*/
+aside#sidebar h2::first-child {
+  margin-top: 10px;
+}
+
+article {
+  width: 664px;
+  float: right;
+  border: 3px solid black;
+  margin: 10px 0 0 10px;
+  padding: 10px;
+}
+
+article h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}

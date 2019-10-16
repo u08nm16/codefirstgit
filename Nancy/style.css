@@ -1,0 +1,22 @@
+header {
+  text-align: center;
+  background: url(https://scontent-lhr3-1.xx.fbcdn.net/v/t1.15752-9/55835968_406013760212441_2825920354273198080_n.jpg?_nc_cat=101&_nc_ht=scontent-lhr3-1.xx&oh=4f787ebee8397c46bf0a0a3a7b745106&oe=5D47D01B);
+  width: 100%;
+}
+body {
+  background-color: rgb(220, 220, 220);
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#carouselExampleFade {
+  height: 300px;
+  width: 650px;
+  margin-top: 20px;
+}
+#ness {
+  clear: left;
+}

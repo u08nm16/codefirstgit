@@ -1,0 +1,53 @@
+header {
+  text-align: center;
+  background: url(http://justfunfacts.com/wp-content/uploads/2017/12/ferns.jpg);
+  backgroud-size: cover;
+  color: white;
+  font-family: 'Permanent Marker';
+  font-size: 200%;
+  overflow: hidden;
+  padding: 0px 10px;
+}
+.social {
+  padding: 0px 0px 0px 0px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+ul {
+  padding: 20px 0px 0px 0px;
+  background: rgba(0,0,0,0.5)
+}
+li {
+  display: inline;
+  padding: 8px 16px;
+  font-size: 80%;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+img {
+  padding: 20px 0px 0px 0px;
+  border: 10px;
+  border-radius: 10px;
+}
+.column {
+  float: left;
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

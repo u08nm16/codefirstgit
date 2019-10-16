@@ -1,0 +1,70 @@
+header {
+  font-family: 'Srisakdi', cursive;
+  background-color: lightpink;
+  width: 100%;
+}
+body {
+  background-color: lightgray;
+  font-family: 'Josefine Sans', sans-serif;
+}
+.logo a {
+  color: black;
+}
+.logo a:hover {
+  color: black;
+}
+.logo a:visited {
+  color: black;
+}
+
+.bd-example {
+  width:640px;
+  height:380px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+
+#HCB_comment_box {
+  width:620px;
+  height:380px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+}
+.carousel{
+  width:620px;
+  height:580px;
+}
+
+
+#sidenav {
+  background-color: #111;
+  padding-top: 20px;
+}
+#sidenav a {
+  padding: 6px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+#sidenav a:hover {
+  color: #f1f1f1;
+}
+div.scrollmenu {
+  background-color: lightgray;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+div.scrollmenu img {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  height: 300px;
+  width: 200px;
+}

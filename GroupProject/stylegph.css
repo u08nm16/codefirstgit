@@ -1,0 +1,54 @@
+header {
+  background-color: lightpink;
+  font-family: 'Srisakdi', cursive;
+  width: 100%;
+}
+body {
+  background-color: lightgray;
+  font-family: 'Josefin Sans', sans-serif;
+  image-display: list;
+}
+#sidenav {
+  background-color: #111;
+  padding-top: 20px;
+}
+#sidenav a {
+  padding: 6px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+#sidenav a:hover {
+  color: #f1f1f1;
+}
+#main {
+  padding: 0px 10px;
+}
+.card {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.cat {
+  float: left;
+  clear: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 165px;
+  border: solid black 1px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.cats {
+  float: right;
+  clear: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 105px;
+  margin-top: 60px;
+  border: solid black 1px;
+  border-radius: 50%;
+  padding: 2px;
+}
